@@ -1,0 +1,38 @@
+{
+    "name": "fireplace",
+    "version": "1.0.0",
+    "description": "Transform Samsung TV into a fireplace",
+    "main": "",
+    "scripts": {
+        "build": "webpack --watch",
+        "wits-init": "wits --init",
+        "wits-start": "wits --start",
+        "wits-watch": "wits --watch",
+        "wits": "wits"
+    },
+    "author": "Anthony MOTTL",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.10",
+        "@babel/preset-react": "^7.12.10",
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0",
+        "@types/tizen-common-web": "^1.0.0",
+        "@types/tizen-tv-webapis": "^1.0.0",
+        "babel-loader": "^8.2.2",
+        "copy-webpack-plugin": "^6.3.2",
+        "html-webpack-plugin": "^4.5.0",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.6.4",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "@tizentv/wits": "^2.2.0",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "tizen-common-web": "^1.0.0",
+        "tizen-tv-webapis": "^1.0.0"
+    }
+}
